@@ -1,0 +1,31 @@
+name: Go
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: 1.18
+
+    - name: Build
+      run: sh generate.sh
+
+    - name: commit
+      run: |
+        git config --global user.email 739609084@qq.com
+        git config --global user.name artikell
+        git add .
+        git commit -m "update on "`date` -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
