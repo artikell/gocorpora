@@ -25,7 +25,7 @@ jobs:
         git config --global user.email 739609084@qq.com
         git config --global user.name artikell
         git add .
-        git commit -m "update on "`date`
+        git commit -m "update on `date`"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
