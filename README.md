@@ -1,4 +1,4 @@
-# gocorpora
+# Gocorpora
 A simple Golang interface for Darius Kazemi's Corpora Project, "a collection of static corpora (plural of 'corpus') that are potentially useful in the creation of weird internet stuff." The gocorpora interface makes it easy to use data from the Corpora Project in your program. Here's an example of how it works:
 
 ```go
@@ -38,6 +38,9 @@ Installation by hand:
 ```shell
 go get github.com/artikell/gocorpora
 ```
+## Update
+
+The current project will synchronize the data of the [dariusk/corpora](https://github.com/dariusk/corpora) project and generate a new model at 2 o'clock every day through the action function of GitHub
 
 ## Acknowledgements
 
