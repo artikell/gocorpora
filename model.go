@@ -9507,6 +9507,13 @@ type DataColorsCrayola struct {
 		Description string `json:"description"`
 	} `json:"data"`
 }
+// from data/plants/toxic_plants.json
+type DataPlantsToxicPlants struct {
+	Data struct {
+		Discription string   `json:"discription"`
+		Plants      []string `json:"plants"`
+	} `json:"data"`
+}
 // from data/plants/flowers.json
 type DataPlantsFlowers struct {
 	Data struct {
