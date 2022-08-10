@@ -5234,6 +5234,14 @@ type DataAnimalsDonkeys struct {
 		Donkeys []string `json:"donkeys"`
 	} `json:"data"`
 }
+// from data/animals/mainly-ducks.json
+type DataAnimalsMainlyDucks struct {
+	Data struct {
+		Description string   `json:"description"`
+		Ducks       []string `json:"ducks"`
+		Source      string   `json:"source"`
+	} `json:"data"`
+}
 // from data/animals/rabbits.json
 type DataAnimalsRabbits struct {
 	Data struct {
