@@ -37,5 +37,7 @@ do
   jsonutil -f $r >> $currentPath
 done;
 
+date +"%Y-%m-%d %H-%M-%S" > last_commit_data
+
 # remote temp folder
 rm -rf "$tmpdir"
