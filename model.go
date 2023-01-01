@@ -8057,7 +8057,8 @@ type DataAnimalsDogs struct {
 // from data/animals/donkeys.json
 type DataAnimalsDonkeys struct {
 	Data struct {
-		Donkeys []string `json:"donkeys"`
+		Description string   `json:"description"`
+		Donkeys     []string `json:"donkeys"`
 	} `json:"data"`
 }
 // from data/animals/dog_names.json
@@ -8078,7 +8079,8 @@ type DataAnimalsMainlyDucks struct {
 // from data/animals/horses.json
 type DataAnimalsHorses struct {
 	Data struct {
-		Horses []string `json:"horses"`
+		Description string   `json:"description"`
+		Horses      []string `json:"horses"`
 	} `json:"data"`
 }
 // from data/animals/collateral_adjectives.json
@@ -8121,7 +8123,8 @@ type DataAnimalsBirdsNorthAmerica struct {
 // from data/animals/cats.json
 type DataAnimalsCats struct {
 	Data struct {
-		Cats []string `json:"cats"`
+		Cats        []string `json:"cats"`
+		Description string   `json:"description"`
 	} `json:"data"`
 }
 // from data/animals/dinosaurs.json
@@ -8134,7 +8137,8 @@ type DataAnimalsDinosaurs struct {
 // from data/animals/ponies.json
 type DataAnimalsPonies struct {
 	Data struct {
-		Ponies []string `json:"ponies"`
+		Description string   `json:"description"`
+		Ponies      []string `json:"ponies"`
 	} `json:"data"`
 }
 // from data/animals/rabbits.json
@@ -8165,7 +8169,8 @@ type DataAnimalsBirdsAntarctica struct {
 // from data/animals/common.json
 type DataAnimalsCommon struct {
 	Data struct {
-		Animals []string `json:"animals"`
+		Animals     []string `json:"animals"`
+		Description string   `json:"description"`
 	} `json:"data"`
 }
 // from data/corporations/newspapers.json
