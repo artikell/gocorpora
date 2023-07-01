@@ -10958,6 +10958,13 @@ type DataHumansAtusActivities struct {
 		Source      string `json:"source"`
 	} `json:"data"`
 }
+// from data/humans/neutralNames.json
+type DataHumansNeutralNames struct {
+	Data struct {
+		Description  string   `json:"description"`
+		NeutralNames []string `json:"neutralNames"`
+	} `json:"data"`
+}
 // from data/humans/familyRelations.json
 type DataHumansFamilyRelations struct {
 	Data struct {
