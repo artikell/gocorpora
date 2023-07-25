@@ -7897,136 +7897,160 @@ type DataDivinationZodiac struct {
 		Source        string `json:"source"`
 		WesternZodiac struct {
 			Aquarius struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Aquarius"`
 			Aries struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Aries"`
 			Cancer struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Cancer"`
 			Capricorn struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Capricorn"`
 			Gemini struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Gemini"`
 			Leo struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Leo"`
 			Libra struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Libra"`
 			Pisces struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Pisces"`
 			Sagittarius struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Sagittarius"`
 			Scorpio struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Scorpio"`
 			Taurus struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Taurus"`
 			Virgo struct {
-				Element           string   `json:"element"`
-				Gloss             string   `json:"gloss"`
-				Keywords          []string `json:"keywords"`
-				LongitudeEnd      int64    `json:"longitude_end,string"`
-				LongitudeStart    int64    `json:"longitude_start,string"`
-				RulingBodyClassic string   `json:"ruling_body_classic"`
-				RulingBodyModern  string   `json:"ruling_body_modern"`
-				SvgSymbol         string   `json:"svg_symbol"`
-				UnicodeSymbol     string   `json:"unicode_symbol"`
+				ApproximateEndDate   string   `json:"approximate_end_date"`
+				ApproximateStartDate string   `json:"approximate_start_date"`
+				Element              string   `json:"element"`
+				Gloss                string   `json:"gloss"`
+				Keywords             []string `json:"keywords"`
+				LongitudeEnd         int64    `json:"longitude_end,string"`
+				LongitudeStart       int64    `json:"longitude_start,string"`
+				RulingBodyClassic    string   `json:"ruling_body_classic"`
+				RulingBodyModern     string   `json:"ruling_body_modern"`
+				SvgSymbol            string   `json:"svg_symbol"`
+				UnicodeSymbol        string   `json:"unicode_symbol"`
 			} `json:"Virgo"`
 		} `json:"western_zodiac"`
 	} `json:"data"`
