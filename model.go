@@ -3253,6 +3253,24 @@ type DataPsychologyPersonalityTest struct {
 		Source          string   `json:"source"`
 	} `json:"data"`
 }
+// from data/sports/milb_teams.json
+type DataSportsMilbTeams struct {
+	Data struct {
+		Description string `json:"description"`
+		MilbTeams   []struct {
+			Affiliate       string `json:"affiliate"`
+			ClubName        string `json:"clubName"`
+			Division        string `json:"division"`
+			FirstYearOfPlay int64  `json:"firstYearOfPlay,string"`
+			FranchiseName   string `json:"franchiseName"`
+			HomeVenue       string `json:"homeVenue"`
+			League          string `json:"league"`
+			Level           string `json:"level"`
+			LocationName    string `json:"locationName"`
+			Name            string `json:"name"`
+		} `json:"milb_teams"`
+	} `json:"data"`
+}
 // from data/sports/sports.json
 type DataSportsSports struct {
 	Data struct {
