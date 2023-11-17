@@ -8047,6 +8047,13 @@ type DataObjectsCorporaWinners struct {
 		} `json:"winners"`
 	} `json:"data"`
 }
+// from data/objects/containers.json
+type DataObjectsContainers struct {
+	Data struct {
+		Containers  []string `json:"containers"`
+		Description string   `json:"description"`
+	} `json:"data"`
+}
 // from data/objects/objects.json
 type DataObjectsObjects struct {
 	Data struct {
@@ -8285,6 +8292,13 @@ type DataHumansNorwayFirstNamesBoys struct {
 	Data struct {
 		Description             string   `json:"description"`
 		FirstnamesBoysNorwegian []string `json:"firstnames_boys_norwegian"`
+	} `json:"data"`
+}
+// from data/humans/obsolete-occupations.json
+type DataHumansObsoleteOccupations struct {
+	Data struct {
+		Description string   `json:"description"`
+		Occupations []string `json:"occupations"`
 	} `json:"data"`
 }
 // from data/humans/firstNames.json
